@@ -34,5 +34,25 @@
    ![](img/8.png)
 
 ### Manager View
+* As a store's manager, the application could list a set of menu:
+
+    ![](img/9.png)
+* View products of sales
+
+    ![](img/10.png)
+     ![](img/11.png)
+* View low inventory
+
+     ![](img/12.png)
+* Add to inventory
+
+     ![](img/13.png)
+* Add new product
+
+     ![](img/14.png)
+
+
+
+
 
 

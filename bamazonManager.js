@@ -55,7 +55,7 @@ var runSearch = function () {
                 [results[i].ID, results[i].PRODUCT,results[i].PRICE,results[i].QUANTITY]
             );
             console.log(table.toString());
-            console.log(chalk.yellow('Cong!\n'));
+            console.log(chalk.yellow('Here you go!\n'));
          }
          runSearch();
       });
