@@ -4,11 +4,11 @@
 <p>The app will take in orders from customers and deplete stock from the store's inventory. As a bonus task, you can program your app to track product sales across your store's departments and then provide a summary of the highest-grossing departments in the store.</p>
 
 <p>Before using node.js, install all the packages in json file.</p>
-![screen shot 2018-05-18 at 1 43 35 pm](https://user-images.githubusercontent.com/31069867/40254373-bf5cb8ca-5aa8-11e8-85cd-f8cf9f527f0c.png)
-
+   ![](img/1.png)
 
 <p>Create bAmazon database in MySQL.
-![Alt text](/img/Screen Shot 2018-05-18 at 1.58.46 PM.png)
+ 
+   ![](img/2.png)
 
 <p>Populate database with 10 more products in MySQL.
 ![Alt text](/img/Screen Shot 2018-05-18 at 1.57.25 PM.png)
