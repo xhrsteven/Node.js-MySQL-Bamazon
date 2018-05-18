@@ -25,7 +25,8 @@
 * Customer would be asked the question when purchasing products
 
    ![](img/6.png)
-If our stock quantity does not meet customer's request, the application will show up insufficient quantity.
+   
+* If our stock quantity does not meet customer's request, the application will show up insufficient quantity.
 
    ![](img/7.png)
 * Once we meet customer's request, the application will finish the purchase process.
