@@ -13,19 +13,24 @@
 
 <p>Populate database with 10 more products in MySQL.
 
-
-
+   ![](img/3.png)
 
 ### Customer View
 * The program will display all the products when customer runs at the first time
 
+   ![](img/4.png)
+   
+   ![](img/5.png)
 
 * Customer would be asked the question when purchasing products
+
+   ![](img/6.png)
 If our stock quantity does not meet customer's request, the application will show up insufficient quantity.
-![Alt text](/img/Screen Shot 2018-05-18 at 2.04.25 PM.png)
- ![Alt text](/img/Screen Shot 2018-05-18 at 2.04.46 PM.png)
+
+   ![](img/7.png)
 * Once we meet customer's request, the application will finish the purchase process.
-![Alt text](/img/Screen Shot 2018-05-18 at 2.08.53 PM.png)
+   
+   ![](img/8.png)
 
 ### Manager View
 
