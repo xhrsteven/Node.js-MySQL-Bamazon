@@ -1,4 +1,3 @@
-
 INSERT INTO products
     (item_id,product_name,department_name,price,stock_quantity)
 VALUES(1, 'Apple Watch', 'Electronic', 125, 120);
@@ -29,3 +28,12 @@ VALUES(9, 'Apple Ipad Air', 'Electronic', 699, 350);
 INSERT INTO products
     (item_id,product_name,department_name,price,stock_quantity)
 VALUES(10, 'Apple Mac Pro', 'Electronic', 1899, 280);
+INSERT INTO products
+    (item_id,product_name,department_name,price,stock_quantity)
+VALUES(11, 'Supreme', 'Clothing', 125, 100);
+INSERT INTO products
+    (item_id,product_name,department_name,price,stock_quantity)
+VALUES(12, 'Champion', 'Clothing', 125, 60);
+INSERT INTO products
+    (item_id,product_name,department_name,price,stock_quantity)
+VALUES(13, 'American Eagle', 'Clothing', 125, 150);

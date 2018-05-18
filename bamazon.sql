@@ -1,18 +1,18 @@
--- DROP DATABASE IF EXISTS bAmazon;
+DROP DATABASE IF EXISTS bAmazon;
 
--- CREATE DATABASE bAmazon;
+CREATE DATABASE bAmazon;
 
+CREATE TABLE products (
+    item_id int AUTO_INCREMENT,
+    product_name VARCHAR(100),
+    department_name VARCHAR(100),
+    price DECIMAL(10,4),
+    stock_quantity int,
+    PRIMARY KEY(item_id)
+)
 USE bAmazon;
 SELECT * FROM products ;
 
--- CREATE TABLE products (
---     item_id int AUTO_INCREMENT,
---     product_name VARCHAR(100),
---     department_name VARCHAR(100),
---     price DECIMAL(10,4),
---     stock_quantity int,
---     PRIMARY KEY(item_id)
--- )
 
 -- INSERT INTO products
 --     (item_id,product_name,department_name,price,stock_quantity)
