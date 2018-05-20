@@ -45,18 +45,22 @@ var runSearch = function (){
       message:'How many products would you like to purchase?'
     }
   ]).then(function(answer){ 
-    var query = 'SELECT * FROM products WHERE ?';
-    connection.query(query, {product_name: answer.product}, function(err,results){
+    var query1 = 'SELECT * FROM products WHERE ?';
+    connection.query(query1, {product_name: answer.product}, function(err,results){
       if(err) throw err;
+      // console.log(results);
       if (results[0].stock_quantity < parseInt(answer.quantity)) {
           chalk.red(console.log("Insufficient quantity!"));
           runSearch();
         }else{
-          //update DB
+          // update DB
           connection.query(
             'UPDATE products SET ? WHERE ?',
               [{
-                stock_quantity: results[0].stock_quantity - answer.quantity
+                stock_quantity: results[0].stock_quantity - answer.quantity,
+                product_sales: results[0].price*answer.quantity+results[0].product_sales,
+                over_head_costs: answer.quantity * results[0].product_cost + results[0].over_head_costs,
+                product_sales: results[0].price * answer.quantity + results[0].product_sales 
               },
               {
                 product_name: answer.product
